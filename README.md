@@ -36,7 +36,6 @@ projeto-temperatura-esp32/
 - Sensor de temperatura DHT22  
 - Display OLED SSD1306 (I2C)  
 - LED Amarelo (temperatura baixa)  
-- LED Verde (temperatura normal)  
 - LED Vermelho (temperatura alta)  
 - Buzzer  
 - Jumpers e protoboard  
@@ -75,7 +74,7 @@ Ferramentas compatíveis:
 | Faixa de Temperatura | LED Ativo | Publicação MQTT |
 |----------------------|-----------|----------------|
 | Abaixo de 18°C       | Amarelo   | LOW_TEMP       |
-| Entre 18°C e 27°C    | Verde     | OK_TEMP        |
+| Entre 18°C e 27°C    | NENHUM LED| OK_TEMP        |
 | Acima de 27°C        | Vermelho  | HIGH_TEMP      |
 
 > O buzzer toca sempre que a temperatura estiver na faixa **baixa** ou **alta**.
@@ -109,7 +108,6 @@ Atualizado a cada ciclo de leitura.
 
 **LEDs**  
 - Amarelo → GPIO 2  
-- Verde → GPIO 4  
 - Vermelho → GPIO 5  
 
 **Buzzer**  
