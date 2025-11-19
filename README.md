@@ -3,6 +3,8 @@
 Este projeto utiliza um **ESP32**, um sensor **DHT22**, um **OLED 128x64**, LEDs de indicação e um **buzzer** para criar um sistema completo de monitoramento de temperatura ambiente.  
 As leituras são exibidas no display, enviadas via **MQTT** e acompanhadas por alertas visuais e sonoros.
 
+![Protótipo](imagens/prototipo.png)
+
 ---
 
 ## 📦 Estrutura do Projeto
