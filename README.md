@@ -46,8 +46,8 @@ projeto-temperatura-esp32/
 
 O ESP32 publica as informações em dois tópicos:
 
-- `temperatura/ambiente` → Valor lido do DHT22  
-- `temperatura/alerta` → Estado atual da temperatura  
+- `ambiente/clima/temp` → Valor lido do DHT22  
+- `ambiente/clima/estado` → Estado atual da temperatura  
 
 Ferramentas compatíveis:  
 
