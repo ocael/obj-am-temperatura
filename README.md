@@ -13,6 +13,7 @@ projeto-temperatura-esp32/
 │── diagram.json
 │── libraries.txt
 │── README.md
+```
 
 ---
 
